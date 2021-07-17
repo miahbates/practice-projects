@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        th, tfoot {
+            background-color: #427fef;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            border-collapse: collapse;
+        }
+        .even {
+            background-color: #eef7ff;
+
+        }
+        td {
+            border-bottom: 1px solid #c4dcf3;
+            padding: 10px;
+            text-align: left;
+        }
+        table {
+            border-spacing:0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Country</th>
+                <th>OrderID</th>
+                <th>Order Amount</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="even">
+                <td>USA</td>
+                <td>1000</td>
+                <td>$1,300</td>
+            </tr>
+            <tr>
+                <td>USA</td>
+                <td>1001</td>
+                <td>$700</td>
+            </tr>
+            <tr class="even">
+                <td>Ca</td>
+                <td>1002</td>
+                <td>$2,000</td>
+            </tr>
+            <tr>
+                <td>Ca</td>
+                <td>1003</td>
+                <td>$3,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan=2>Total</th>
+                <th>$5,000</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
+
+

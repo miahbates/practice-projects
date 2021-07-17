@@ -1,0 +1,238 @@
+html {
+  font-size: 62.5%;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+body {
+  margin: 0;
+  line-height: 2rem;
+}
+
+nav {
+  overflow: auto;
+  background-color: #2b2b2b;
+  width: 100vw;
+  position: sticky;
+  margin: 0;
+}
+
+.navlist ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navlist ul li {
+  float: left;
+  padding: 4px;
+  margin: 2px;
+  text-align: center;
+  display: block;
+  letter-spacing: 1px;
+  border-right: solid 2px white;
+}
+
+.rightside {
+  float: right;
+  padding: 5px;
+}
+
+.icon {
+  color: white;
+  display: block;
+  padding: 5px;
+  font-size: 2rem;
+  transition: color 0.2s;
+}
+
+.icon:hover {
+  color: #ff69b4;
+}
+
+.header {
+  background-image: url(https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80);
+  width: 100%;
+  height: 20vh;
+  background-size: cover;
+  margin: 0;
+}
+
+h1 {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+  padding: 45px;
+  color: #222;
+}
+
+main {
+  background-color: #2b2b2b;
+}
+
+h2 {
+  font-family: "OpenSans", Arial, Helvetica, sans-serif;
+  color: #aaaaaa;
+  text-align: left;
+  padding: 10px 0;
+  font-size: 1.5rem;
+  border-bottom: solid 2px ivory;
+  margin: 10px 20px;
+}
+
+p {
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  color: #aaaaaa;
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  width: 100vw;
+}
+
+.rupaul {
+  height: 100px;
+  width: 80px;
+  margin: 30px 0;
+}
+
+.picture1 {
+  border-right: solid 2px ivory;
+}
+
+.picture2 {
+  border-right: solid 2px ivory;
+}
+.picture3 {
+  border-right: solid 2px ivory;
+}
+
+h3 {
+  color: #aaaaaa;
+  border-bottom: solid 2px ivory;
+  font-size: 1.4rem;
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
+
+.facts li {
+  color: #aaaaaa;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+  font-size: 1.2;
+  padding: 0 20px;
+  list-style: circle;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .navlist ul {
+    font-size: 1.8rem;
+  }
+
+  .rightside {
+    padding: 10px;
+  }
+
+  .navlist ul li {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  .header {
+    height: 40vh;
+  }
+
+  h1 {
+    font-size: 6rem;
+    padding: 100px;
+  }
+
+  h2 {
+    font-size: 2.8rem;
+    padding: 10px 20px;
+  }
+
+  p {
+    font-size: 1.8rem;
+    padding: 0 20px;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template: repeat(2, 200px) / repeat (2, 200px);
+    justify-content: center;
+    padding: 20px 50px;
+    width: 100%;
+  }
+
+  .rupaul {
+    height: 300px;
+    width: 240px;
+    margin: 0;
+  }
+
+  .picture1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    border-right: solid 2px ivory;
+    border-bottom: solid 2px ivory;
+  }
+
+  .picture2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    border-left: solid 2px ivory;
+    border-bottom: solid 2px ivory;
+  }
+
+  .picture3 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    border-right: solid 2px ivory;
+    border-top: solid 2px ivory;
+  }
+
+  .picture4 {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    border-left: solid 2px ivory;
+    border-top: solid 2px ivory;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+
+  .facts li {
+    font-size: 1.8rem;
+    padding: 10px 20px;
+  }
+}

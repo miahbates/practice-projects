@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url(../images/spaceimage@xs.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: auto;
+    word-spacing: 3px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2.441rem; 
+    text-shadow: 3px 3px black;
+    padding: 0 0 25px 0; 
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 1.563rem; 
+    padding: 5px;
+}
+
+.subtitle {
+    display: inline-block;
+    background-color: rgb(76, 78, 78);
+    opacity: 0.7;
+}
+
+@media screen and (min-width: 853px) {
+    h1 {
+        font-size: 3.185rem; 
+    }
+    h2 {
+        font-size: 2.441rem; 
+    }
+
+    body {
+        background-image: url(../images/spaceimage@s.jpeg);
+    }
+
+}
+
+@media screen and (min-width: 1228px) {
+    h1 {
+        font-size: 3.815rem; 
+    }
+    h2 {
+        font-size: 3.052rem; 
+    }
+    body {
+        background-image: url(../images/spaceimage@m.jpeg);
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    h1 {
+        font-size: 5.96rem; 
+    }
+    h2 {
+        font-size: 3.185rem; 
+    }
+    body {
+        background-image: url(../images/spaceimage@l.jpeg);
+    }
+}

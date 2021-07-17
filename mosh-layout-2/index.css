@@ -1,0 +1,32 @@
+.container {
+    border: 2px solid black;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    font-size: 62.5%;
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+    padding: 5px 5px 20px 5px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        background-color:black;
+    }
+
+    .box {
+        color: white;
+        background-color: black;
+        font-size: 16px;
+        font-family: arial, helvetica, sans-serif;
+        text-align: center;
+        padding: 5px; 
+    }
+}
+

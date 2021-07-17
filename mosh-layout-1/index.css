@@ -1,0 +1,12 @@
+.container {
+    border: 2px solid black;
+}
+
+.div {
+    background-color: black;
+    color: white;
+    font-size: 62.5%;
+    text-align: center;
+    padding: 5px 5px 20px 5px;
+
+}
