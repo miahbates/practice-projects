@@ -1,0 +1,28 @@
+html {
+  font-family: "Arial", sans-serif;
+}
+
+h1 {
+  font-size: 4.5em;
+  letter-spacing: -1px;
+  background-color: rgba(77, 78, 165, 0.685);
+  color: white;
+  display: inline;
+ }
+
+ a {
+  text-decoration: none;
+  color: inherit;
+ }
+
+ a:hover {
+   background-color: rgba(77, 78, 165, 0.685);
+   color: white;
+
+ }
+
+ li {
+   padding: 10px;
+   margin: 5px
+   
+ }
